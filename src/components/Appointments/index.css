@@ -1,0 +1,74 @@
+.bg-image {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  padding: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sub-div {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  min-width: 300px;
+}
+.img {
+  display: none;
+}
+.heading {
+  color: #171f46;
+  font-size: 26px;
+  font-family: 'Roboto';
+}
+.for-label {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+}
+.for-input {
+  height: 20px;
+  width: 190px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+}
+.button {
+  background-color: #8b5cf6;
+  border-radius: 8px;
+  border-width: 0px;
+  color: #ffffff;
+  padding: 8px;
+}
+.star-button {
+  border: #9897f0 2px solid;
+  background-color: transparent;
+  border-radius: 10px;
+  color: #9897f0;
+  height: 20px;
+}
+.for-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.ul {
+  display: flex;
+  flex-direction: row;
+}
+.for-flexImage {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (min-width: 767px) {
+  .img {
+    display: block;
+    height: 190px;
+    width: 290px;
+    order: 2;
+    margin-left: 130px;
+  }
+  .sub-div {
+    min-width: 600px;
+  }
+}
