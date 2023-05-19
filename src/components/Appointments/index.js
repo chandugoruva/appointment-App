@@ -86,6 +86,7 @@ class Appointments extends Component {
                 type="date"
                 placeholder="Date"
                 className="for-input"
+                    id="date"
                 onChange={this.onChangesDate}
                 value={date}
               />
